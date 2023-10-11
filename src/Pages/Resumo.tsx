@@ -34,7 +34,7 @@ const Resumo = () => {
           </span>
         </div>
       </div>
-      <div className="graficos">Gráficos</div>
+      <div className="graficos mb">Gráficos</div>
     </section>
   );
 };
