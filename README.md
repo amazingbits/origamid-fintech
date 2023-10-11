@@ -18,10 +18,10 @@
 
 <h4>Prints</h4>
 <span>Página de Resumo (inicial)</span>
-<img src="https://ibb.co/b3LC8Hb" alt="Print da Página de Resumo" />
+<img src="https://i.ibb.co/FWJyjsH/resumo.jpg" width="100%" height="100%" alt="Print da Página de Resumo" />
 <br>
 <span>Página de Vendas</span>
-<img src="https://ibb.co/Q9Zr6d0" alt="Print da Página de Vendas" />
+<img src="https://i.ibb.co/zs1GSJd/venda.jpg" width="100%" height="100%" alt="Print da Página de Vendas" />
 <br>
 <span>Página de Informações de uma Venda Específica</span>
-<img src="https://ibb.co/yhWkF3q" alt="Print da Página de Informações de uma Venda Específica" />
+<img src="https://i.ibb.co/Q8rHv5M/vendas.jpg" width="100%" height="100%" alt="Print da Página de Informações de uma Venda Específica" />
