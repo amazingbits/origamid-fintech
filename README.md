@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+<h1>Fintech</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>O projeto <b>Fintech</b> foi desenvolvido durante o curso de <b>React com TypeScript</b> da plataforma Origamid. Trata-se de uma aplicação front-end de vendas que consome uma API do curso. Esta API traz dados de vendas dos últimos 90 dias que são consumidos e gerenciados nesta aplicação.</p>
 
-Currently, two official plugins are available:
+<h4>Tecnologias</h4>
+<ul>
+   <li>React</li>
+   <li>TypeScript</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h4>Principais Conceitos</h4>
+<ul>
+   <li>Componentes</li>
+   <li>Estados</li>
+   <li>Hooks</li>
+   <li>Type Guard</li>
+</ul>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h4>Prints</h4>
+<span>Página de Resumo (inicial)</span>
+<img src="https://ibb.co/b3LC8Hb" alt="Print da Página de Resumo" />
+<br>
+<span>Página de Vendas</span>
+<img src="https://ibb.co/Q9Zr6d0" alt="Print da Página de Vendas" />
+<br>
+<span>Página de Informações de uma Venda Específica</span>
+<img src="https://ibb.co/yhWkF3q" alt="Print da Página de Informações de uma Venda Específica" />
