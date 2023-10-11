@@ -1,9 +1,21 @@
 import React from "react";
 import DateRange from "./DateRange";
 import Meses from "./Meses";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const [title, setTitle] = React.useState("Resumo");
+  const location = useLocation();
+
+  React.useEffect(() => {
+    if (location.pathname === "/") {
+      document.title = "Fintech | Resumo";
+      setTitle("Resumo");
+    } else if (location.pathname === "/vendas") {
+      document.title = "Fintech | Vendas";
+      setTitle("Vendas");
+    }
+  }, [location]);
 
   return (
     <header className="mb">
